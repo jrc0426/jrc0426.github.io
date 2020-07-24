@@ -17,10 +17,12 @@
     
   }
 
-  .image-mid
+  .iconContainer 
   {
-
+      align-items: center;
+      margin: auto;
   }
+
 
 .headers {
     position: relative;
@@ -33,14 +35,15 @@
     background-color: black;
     color: whitesmoke;
     letter-spacing: 4px;
-    line-height: 3.5em;
     padding: 20px;
+    font-family: 'Raleway', sans-serif;
   }
   
 .textContainer
 {
-    padding: 10px;
+    padding: 15px;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 .borderContainer
@@ -49,6 +52,7 @@
     border-color: black;
     border-width: 3.5px;
     border-style: ridge;
+    border-radius: 10px;
     padding: 10px;
     background-color: whitesmoke;
     clear: both;
@@ -69,7 +73,7 @@
         font-size: 24px;
         margin: 15px;
         text-align: justify;
-        /*font-family: */
+        font-family: 'Roboto Slab', serif;
 }
 
 .subHeaderRight
@@ -77,32 +81,41 @@
         font-size: 24px;
         margin: 15px;
         text-align: right;
-        /*font-family: */
+        font-family: 'Roboto Slab', serif;
 }
 
 .imgContainer
 {
     width: 240px;
-    height: 300px;
 }
 
 .imgContainer2
 {
     width: 210px;
-    height: 280px;
+}
+
+.imgcontainer3
+{
+    width: 210px;
 }
 
 
-@media(max-width: 530px)
+@media(max-width: 1070px)
 {
     .imgContainer
     {
-        width: 80%;
+        width: 20%;
+        height: initial;
     }
-    
     .imgContainer2
     {
-        width: 80%
+        width: 40%;
+        height: initial;
+    }
+    .imgcontainer3
+    {
+        width: 40%;
+        height: initial;
     }
     .borderContainer{
         width: 80%;
