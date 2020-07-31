@@ -36,8 +36,29 @@
     color: whitesmoke;
     letter-spacing: 4px;
     padding: 20px;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
-  }
+}
+
+.headerBorder
+{
+    border: 3.5px dashed black;
+    background-color: black;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-text2 {
+    color: whitesmoke;
+    letter-spacing: 4px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
   
 .textContainer
 {
@@ -56,6 +77,34 @@
     padding: 10px;
     background-color: whitesmoke;
     clear: both;
+}
+
+.borderContainer2
+{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 15px;
+    border-color: black;
+    border-width: 3.5px;
+    border-style: ridge;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.borderContainer3
+{
+    margin-right: 25%;
+    margin-left: 25%;
+    border-color: black;
+    border-width: 3.5px;
+    border-style: ridge;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    background-color: whitesmoke;
 }
 
 .imageFloatLeft
@@ -118,7 +167,149 @@
         height: initial;
     }
     .borderContainer{
+        width: 67.5%;
+        height: initial;
+    }
+    .InfoButton
+    {
+        width: 40%;
+        height: intial;
+    }
+    .PreviousButton
+    {
         width: 80%;
         height: initial;
     }
+    .borderContainer2
+    {
+        width: 65%;
+        height: initial;
+    }
+    .headerBorder
+    {
+        width: 65%;
+        height: initial;
+    }
+    .borderContainer3
+    {
+        width: 65%;
+        height: initial;
+    }
+    .submit_button
+    {
+        width: 28%;
+        height: initial;
+    }
+}
+
+
+.button_properties_right
+{
+    border: rgb(15, 99, 217);
+    color: whitesmoke;
+    text-align: center;
+    padding: 16px 20px;
+    float: right;
+    margin-right: 100px;
+    font-size: 16px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+.button_properties_left
+{
+    border: rgb(15, 99, 217);
+    color: whitesmoke;
+    text-align: center;
+    padding: 16px 20px;
+    margin-left: 100px;
+    font-size: 16px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+.NextButton
+{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+}
+
+.NextButton:hover
+{
+    background-color: rgb(38, 250, 18);
+    color: whitesomke;
+}
+
+.PreviousButton
+{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+}
+
+.PreviousButton:hover
+{
+    background-color: rgb(255, 6, 68);
+    color: whitesmoke;
+}
+
+.InfoButton
+{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+}
+
+.InfoButton:hover
+{
+    background-color: rgb(38, 250, 18);
+    color: whitesmoke;
+}
+
+.subHeaderMid
+{
+        font-size: 24px;
+        margin: 15px;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+}
+
+#memeGuy
+{
+    width: 15px;
+}
+
+.submit_button
+{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+}
+
+.submit_button:hover
+{
+    background-color: rgb(255, 230, 0);
+    color: black;
+}
+
+.button_properties
+{
+    border: rgb(15, 99, 217);
+    color: black;
+    text-align: center;
+    padding: 16px 20px;
+    margin-left: 46%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+.input_headers
+{
+    padding: 15px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
