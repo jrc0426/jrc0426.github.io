@@ -103,7 +103,6 @@
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    display: flex;
     background-color: whitesmoke;
 }
 
@@ -178,26 +177,6 @@
     .PreviousButton
     {
         width: 80%;
-        height: initial;
-    }
-    .borderContainer2
-    {
-        width: 65%;
-        height: initial;
-    }
-    .headerBorder
-    {
-        width: 65%;
-        height: initial;
-    }
-    .borderContainer3
-    {
-        width: 65%;
-        height: initial;
-    }
-    .submit_button
-    {
-        width: 28%;
         height: initial;
     }
 }
@@ -275,16 +254,12 @@
         font-family: 'Roboto Slab', serif;
 }
 
-#memeGuy
-{
-    width: 15px;
-}
-
 .submit_button
 {
     background-color: whitesmoke;
     color: black;
     border: none;
+    text-align: center;
 }
 
 .submit_button:hover
@@ -319,6 +294,8 @@ input
     text-align: center;
     border: 3px groove black;
     border-radius: 4px;
+    color: black
+    font-size: 16px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -353,3 +330,4 @@ input
     padding: 15px;
     margin: auto;
 }
+

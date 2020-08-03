@@ -1,0 +1,26 @@
+@media (max-width: px)
+{
+    .borderContainer2
+    {
+        width: 45%;
+        height: initial;
+    }
+
+    .headerBorder
+    {
+        width: 45%;
+        height: initial;
+    }
+
+    .InfoButton
+    {
+        width: 45%;
+        height: initial;
+    }
+
+    .PreviousButton
+    {
+        width: 45%;
+        height: initial;
+    }
+}

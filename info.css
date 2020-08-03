@@ -1,0 +1,28 @@
+@media (max-width: 418px)
+{
+    .borderContainer2
+    {
+        width: 45%;
+        height: initial;
+    }
+    .headerBorder
+    {
+        width: 45%;
+        height: initial;
+    }
+    .borderContainer3
+    {
+        width: 45%;
+        height: initial;
+    }
+    .submit_button
+    {
+        width: 18%;
+        height: initial;
+    }
+    .PreviousButton
+    {
+        width: 18%;
+        height: initial;
+    }
+}
