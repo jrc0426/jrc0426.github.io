@@ -3,11 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="info.css">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <!--ffirebase start-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDmdYxeDFHb9bV8poE2Hp80BoNZ1Cdkdr4",
+    authDomain: "mywebsite-798e4.firebaseapp.com",
+    databaseURL: "https://mywebsite-798e4.firebaseio.com",
+    projectId: "mywebsite-798e4",
+    storageBucket: "mywebsite-798e4.appspot.com",
+    messagingSenderId: "696919218048",
+    appId: "1:696919218048:web:19f87140febe1ba8061365"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<!--firebase end-->
+
+    <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="data.js" defer></script>
     <link rel="shortcut icon" type="image/ico" href="assets/icon.ico">
     <title>Info Sheet</title>
 </head>
@@ -60,7 +86,6 @@
             </h3>
         <div class="name_container">
             <!--name goes hear-->
-            
         </div>
     </article>
     <article class="borderContainer3">
